@@ -1,0 +1,178 @@
+/*
+headers and content
+=========================
+*/
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.top-bar, .top-bar ul {
+	background-color: transparent !important;
+	color:#fff !important;;
+	font-weight: bold;
+}
+
+.top-bar ul a {
+	color:#fff;
+}
+
+.top-bar-right ul{
+ margin-top:9px;
+}
+
+
+#navLogo{
+	position:fixed;
+	left:2%;
+	width:99px;
+}
+
+#homePage {
+    background-color: #195991;
+    height: 117px;
+}
+
+div#navName img {
+    width: 232px;
+}
+
+div#navName {
+    position: relative;
+    left: 4%;
+    font-size: 2em;
+		font-weight: 600;
+    color: #fff;
+}
+
+
+#home-title {
+    font-size: 6.25rem;
+		color: #0fa0ce;
+}
+
+
+#index header {
+    position: relative;
+    top: 5em;
+}
+
+
+#navSearchBar input[type=text] {
+  width: 176px;
+  box-sizing: border-box;
+  border: 2px solid #195991;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('../img/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+#navSearchBar input[type=text]:focus {
+  width: 40%;
+}
+
+
+input.search-submit{
+	background-color: #1bde72;
+  border-radius: 4px;
+  border: 1px solid #1bde72;
+	color:#fff;
+}
+
+
+.header {
+  text-align: center;
+  background: #074E68;
+  background-size: cover;
+  position: relative;
+  overflow: visible;
+  padding-top: 2.5rem;
+  padding-bottom: 4.9rem; }
+  .header .headline {
+    color: #ffe; }
+
+.header-subnav {
+  float: none;
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  bottom: 0;
+  width: 100%; }
+  .header-subnav li {
+    float: none;
+    display: inline-block; }
+    .header-subnav li a {
+      padding: 0.9rem 1rem;
+      font-size: 0.75rem;
+      color: #ffe;
+      text-transform: uppercase;
+      display: block;
+      font-weight: bold;
+      letter-spacing: 1px;
+      transition: all 0.35s ease-in-out; }
+      .header-subnav li a.is-active {
+        background: rgba(250, 250, 250, 0.15); }
+      .header-subnav li a:hover {
+        background: rgba(250, 250, 250, 0.15);
+        transition: all 0.35s ease-in-out; }
+
+#blueBG{
+  background-color: #074E68;
+}
+
+#start{
+   height: 100vh;
+}
+
+#main span{
+   cursor: pointer;
+}
+
+
+/*
+Footer 8
+=========================
+*/
+
+footer{
+   clear: both;
+}
+
+.footerTop{
+	border-top:solid 1px #ddd;
+	padding-top: 1em;
+	margin-top: 1em;
+}
+
+footer ul{
+	list-style-type: none;
+}
+
+footer ul li{
+	display: inline;
+	margin: 7px;
+}
+
+.copyright{
+    color: #bbb;
+    text-decoration: underline;
+    float: left;
+}
+
+#footer .icons{
+    float: right;
+}
+
+.parallaxBase.rowNo38 {
+    background-image: url(../img/header.jpg);
+    min-height: 330px;
+    color: #fff;
+    font-weight: bold;
+}

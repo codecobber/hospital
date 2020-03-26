@@ -1,0 +1,193 @@
+/* Row Data CSS
+======================= */
+
+
+
+/* general margins */
+
+.rowNo01, .rowNo02, .rowNo03, .rowNo04, .rowNo05,
+.rowNo07, .rowNo08, .rowNo11, .rowNo12, .rowNo13, .rowNo14,
+.rowNo15, .rowNo16, .rowNo17, .rowNo18, .rowNo19,
+.rowNo20, .rowNo21, .rowNo22, .rowNo23, .rowNo24,
+.rowNo25, .rowNo26, .rowNo27, .rowNo28, .rowNo29,
+.rowNo30, .rowNo31, .rowNo32, .rowNo36, .rowNo39,
+.rowNo40, .rowNo41, .rowNo42, .rowNo45, .rowNo46,
+.rowNo47, .rowNo48, .rowNo50 {
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  float: none !important;
+}
+
+
+.rowNo43, .rowNo44 {
+  padding-top: 7%;
+  padding-bottom: 7%;
+  float: none !important;
+}
+
+
+.rowNo03{
+  background-color:#444;
+}
+
+.rowNo03 a{
+  color:#fff;
+}
+
+
+.rowNo04 a{
+  color:#fff;
+}
+
+
+.rowNo07 .column{
+  margin:20px 0;
+
+}
+
+
+
+.rowNo08 h1, .rowNo08 p, .rowNo47, .rowNo39 h1, .rowNo39 p, .rowNo03, .rowNo32, .rowNo39, .rowNo35, .rowNo26.signup-panel .welcome {
+  text-align: center;
+}
+
+.rowNo13 .width50{
+  width:50%;
+}
+
+.rowNo06, .rowNo09, .rowNo10, .rowNo33, .rowNo34, .rowNo35{
+  padding-top: 4em;
+  padding-bottom: 4em;
+  float: none !important;
+}
+
+
+.row34b{
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+}
+
+.rowNo35 img{
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.rowNo31.roundImg img{
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+
+.rowNo35 h3{
+  margin: 1em 0;
+}
+
+.rowNo26.signup-panel {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-top: 30px;
+}
+.rowNo26.signup-panel i {
+  font-size: 30px;
+  line-height: 50px;
+  color: #999;
+}
+.rowNo26.signup-panel form input, .rowNo26.signup-panel form span {
+  height: 50px;
+}
+.rowNo26.signup-panel .welcome {
+  font-size: 26px;
+  margin-left: 0;
+}
+.rowNo26.signup-panel p {
+  font-size: 13px;
+  font-weight: 200;
+  margin-left: 25%;
+}
+.rowNo26.signup-panel .button {
+  margin-left: 35%;
+}
+
+.rowNo32 ul, ul.icons{
+  list-style-type: none;
+}
+.rowNo32 li{
+  display: inline;
+}
+
+.rowNo44{
+  text-align: right;
+}
+
+.fixMe{
+  position: fixed;
+}
+
+.rowNo49 .fixMe{
+  padding-top: 14%;
+}
+
+.fixMe ul{
+
+  list-style-type:none;
+  text-align: center;
+  margin-left: 0 !important;
+}
+
+
+
+
+.parallaxBase100 #main span {
+    color: #fff;
+}
+
+
+.mosaic .columns{
+  padding:0 !important;
+  margin:0 !important;
+}
+
+.mosaic img{
+ width:100%;
+ border:solid 1px #fff;
+}
+
+.noTopMarg{
+  margin-top: 0 !important;
+}
+
+/* == Additional ==  */
+
+ul.icons li{
+  display:inline;
+}
+
+
+.parallaxBase {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.parallaxBase{
+   background-repeat: no-repeat;
+   height:50vh !important;
+   color:#fff;
+   padding-top:6vh;
+   text-align:center;
+   margin-bottom: 40px;
+}
+
+
+.parallaxBase100 {
+    background-image: url(../img/header2.jpg);
+    height: 100vh !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
