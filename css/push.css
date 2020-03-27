@@ -1,0 +1,169 @@
+/* This is for the nav button with the burger bar*/
+
+#nav-icon1 {
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 2%;
+    margin: 0 auto;
+    border-radius: 50%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+#nav-icon1 span {
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 50%;
+  background: #008ebb;
+  border-radius: 9px;
+  opacity: 1;
+  left: 14px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+#nav-icon1 span:nth-child(1) {
+
+  top: 19px;
+}
+
+#nav-icon1 span:nth-child(2) {
+  top: 29px;
+}
+
+#nav-icon1 span:nth-child(3) {
+  top: 39px;
+}
+
+#nav-icon1.open span:nth-child(1) {
+  top: 28px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+#nav-icon1.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+#nav-icon1.open span:nth-child(3) {
+  top: 28px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+/* This is for the slideout nav*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0a246a; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#0a246a , #008ebb);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 0;
+}
+
+.sidenav a {
+  padding: 4px 8px 4px 13px;
+  text-decoration: none;
+  font-size: 1em;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: -11px;
+    right: 12px;
+    height: 24px;
+    padding: 0px 31px 25px 16px;
+    width: 1px;
+    text-align: center;
+    font-size: 35px;
+    margin-left: 0;
+    border-radius: 50%;
+    background-color: #0fa0ce;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 0;
+}
+
+#mySidenav ul {
+    list-style-type: none;
+    position: relative;
+    top: 2em;
+}
+
+div#navMiniLogo {
+    margin-top: 3.2em;
+    margin-left: 0;
+}
+
+div#navLogo {
+    text-align: left;
+}
+
+div#navName {
+    text-align: center;
+}
+
+div#navBurger {
+    text-align: right;
+}
+
+a.sideNHSLogo {
+    margin: 10px auto;
+    width: 60%;
+    /* margin: 0; */
+    padding: 0;
+}
+
+ul#nav li a::before {
+   display: inline-block;
+   font-style: normal;
+   font-variant: normal;
+   text-rendering: auto;
+   -webkit-font-smoothing: antialiased;
+   font-family: "FontAwesome"; font-weight: 900; content: "\f192";
+   color:#fff;
+   width:29px;
+   display:inline-block;
+ }
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

@@ -23,6 +23,7 @@ function closeNav() {
 $(document).ready(function(){
 	$('#nav-icon1').click(function(){
     //open the nav
+    console.log("ckicked");
 		$(this).toggleClass('open'); //change the icon
     $(this).hasClass('open') ? openNav():closeNav(); //call function
 	});

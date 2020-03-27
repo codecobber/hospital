@@ -80,7 +80,14 @@
 
 
 <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div id="navMiniLogo" class="nav s1 columns"><a class="sideNHSLogo" href="<?php get_site_url(); ?>">
+    <img src="<?php get_theme_url(); ?>/img/nhsScotlandWhiteLogo.png" alt="NHS Scotland Icon" title="NHS Scotland Icon" class="header-icon"></a>
+  </div>
+
+
   <ul id="nav">
+    <li class="navDivider"></li>
     <?php get_navigation(return_page_slug()); ?>
   </ul>
 </div>

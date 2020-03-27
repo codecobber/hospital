@@ -12,9 +12,6 @@ therefore allowing the addition of an attribute 'data-scroll' to selected elemen
 ===================================================================================
 */
 
-
-
-
 	  $(document).ready(function(){
 
 
