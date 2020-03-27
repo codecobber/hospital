@@ -90,6 +90,9 @@
     <li class="navDivider"></li>
     <?php get_navigation(return_page_slug()); ?>
   </ul>
+  <div id="sideNavBotLogo">
+    <img src="<?php get_theme_url(); ?>/img/sideNavBotLogo.png" alt="NHS Scotland Icon" title="NHS Scotland Icon" class="header-icon"></a>
+  </div>
 </div>
 
 <div id="main">

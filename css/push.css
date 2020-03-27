@@ -162,6 +162,12 @@ ul#nav li a::before {
    display:inline-block;
  }
 
+ div#sideNavBotLogo img{
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+}
+
 
 
 @media screen and (max-height: 450px) {
