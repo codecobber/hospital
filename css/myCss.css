@@ -43,13 +43,16 @@ div#navName {
     left: 4%;
     font-size: 2em;
 		font-weight: 600;
-    color: #fff;
 }
 
 
 #home-title {
     font-size: 6.25rem;
-		color: #0fa0ce;
+		color: #a0e8ff;
+}
+
+header h1, header a, div#navName, .cell a{
+	color:#fff;
 }
 
 
