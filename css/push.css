@@ -75,12 +75,12 @@
 /* This is for the slideout nav*/
 .sidenav {
   height: 100%;
-  border-right: solid 2px #fff;
+  border-right: solid 2px #96e6ff;
   width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
+  left: -2px;
   background-color: #0a246a; /* For browsers that do not support gradients */
   background-image: linear-gradient(#195991 , #4cbde0);
   overflow-x: hidden;
